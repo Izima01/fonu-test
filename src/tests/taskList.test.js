@@ -48,7 +48,7 @@ test('adds a new task', () => {
 test('toggles task completion', () => {
   const preloadedState = {
     tasks: {
-      tasks: [{ id: '3652', text: 'New Task', completed: false }],
+      tasks: [{ id: '3652', text: 'Task to be Toggled', completed: false }],
       filter: 'all',
     },
   };

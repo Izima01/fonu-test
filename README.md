@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+## **📝 Task Manager App**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and elegant task manager built with **React and Redux Toolkit**. This application allows users to **add, complete, and delete tasks** while filtering them by status.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+### **🚀 Features**
 
-### `npm start`
+✅ Add new tasks  
+✅ Mark tasks as completed  
+✅ Delete tasks  
+✅ Filter tasks (All | Active | Completed)  
+✅ Local storage persistence  
+✅ Modern UI with smooth interactions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### **🛠️ Technologies Used**
 
-### `npm test`
+- **React** (Frontend)
+- **Redux Toolkit** (State management)
+- **Jest & React Testing Library** (Unit & integration tests)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+### **📦 Installation & Setup**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### **1️⃣ Clone the repository**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/Izima01/fonu-test.git
+cd fonu-test
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### **2️⃣ Install dependencies**
 
-### `npm run eject`
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### **3️⃣ Start the development server**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm run dev
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The app should now be running at `http://localhost:3000` 🚀
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+### **🧪 Running Tests**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm run test
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This will execute all unit and integration tests.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### **📌 Assumptions**
 
-### Analyzing the Bundle Size
+- The app **stores tasks in local storage** for persistence.
+- Tasks **must have unique IDs** (generated using `Math.random()`).
+- The UI is **optimized for desktop and mobile**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+### **🎨 Enhancements & Extras**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **Animations & UI improvements** ✨
+- **Custom checkboxes & filter transitions** 🎭
+- **Added Testing for both the UI and the Redux store** 🎭
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---

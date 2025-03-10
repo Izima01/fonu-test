@@ -34,8 +34,8 @@ describe('taskSlice', () => {
     expect(newState.tasks.length).toBe(0);
   });
 
-  //   test('should change the filter', () => {
-  //     const newState = taskReducer(initialState, setFilter('completed'));
-  //     expect(newState.filter).toBe('completed');
-  //   });
+  test('should change the filter', () => {
+    const newState = taskReducer(initialState, setFilter('completed'));
+    expect(newState.filter).toBe('completed');
+  });
 });
