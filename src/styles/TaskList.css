@@ -1,0 +1,10 @@
+.task-list {
+  margin-top: 10px;
+}
+
+.no-tasks {
+  text-align: center;
+  color: #999;
+  font-style: italic;
+  padding: 20px 0;
+}

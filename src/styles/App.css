@@ -1,0 +1,28 @@
+.task-app {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  overflow-x: hidden;
+}
+
+.app-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.task-count {
+  text-align: center;
+  color: #777;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+@media (max-width: 640px) {
+  .app-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+}
